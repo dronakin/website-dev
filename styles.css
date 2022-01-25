@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Corinthia:wght@400;700&family=Fira+Sans:wght@400;700&family=Merriweather+Sans:wght@400;700&display=swap');
+
+:root {
+    --pink: #4b0023;
+    --hot-pink: #F94892;
+    --light-pink: #FFA1C9;
+    --dark-pink: #E60965;
+    --black-pink: #770038;
+    --cream: #ffb6e1;
+    --floaty-blue: #11999E;
+    --teal: #66BFBF;
+}
+
+body {
+    margin: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    font-size: 1.125rem;
+}
+
+p{
+    color: #40514E;
+}
+
+h1 {
+    margin: 2rem auto 0 auto;
+    font-family: 'Corinthia', sans-serif;
+    font-size: 4.5rem;
+    color: var(--floaty-blue);
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+    color: var(--floaty-blue);
+    font-weight: normal;
+    padding: 2rem;
+}
+
+h3 {
+    font-family: 'Fira Sans', sans-serif;
+    color: var(--floaty-blue);
+}
+
+a {
+    color: var(--floaty-blue);
+    text-decoration: none;
+}
+
+.avatar-photo {
+    max-height: 200px;
+    width: auto;
+}
+
+.profile {
+    max-width: 40%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.home-group {
+    background-color: #EAF6F6;
+    padding-top: 100px;
+    text-align: center;
+    position: relative;
+}
+.middle-container {
+    padding-top: 2rem;
+}
+.bottom-container {
+    background-color: var(--teal);
+    padding: 2rem;
+    line-height: 3;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 32.5rem;
+    top: 3.5rem;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 30rem;
+    bottom: 18rem;
+}
+
+.skill-row {
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    text-align: left;
+    line-height: 2;
+}
+
+.icon-card {
+    min-height: 6rem;
+    width: auto;
+    float: left;
+    padding-right: 2rem;
+}
+
+.copywright {
+    color: #E4F9F5;
+    margin: auto auto 0 auto;
+}
+
+.contact-me {
+    margin: 2rem;
+    line-height: 2;
+}
+
+.in-touch-head {
+    margin: 0;
+    padding: 1rem;
+}
+
+.contact-button {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+    
+.contact-button:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.footer-link {
+    padding: 1.5rem;
+}
+
+hr {
+    margin: 2rem auto 2rem auto;
+    height: 0.125rem;
+    border-style: none none dotted;
+    width: 3%;
+    border-bottom-width: .4rem;
+    color: #EAF6F6;
+}
